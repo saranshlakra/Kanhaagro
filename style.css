@@ -582,18 +582,26 @@ section {
   display: none;
   /* color: white; */
 }
+
+#main-quote {
+    font-style: normal;
+    padding: 1em 8% 0.5em;
+    margin: 0;
+    font-weight: bold;
+    font-family: "Arial";
+    font-size: 180%;
+    line-height: 1.6em;
+    letter-spacing: 0px;
+}
 blockquote {
-  font-style: normal;
+     font-style: normal;
   padding: 3em 10% 0.5em;
   margin: 0;
   font-weight: 400;
   font-family: "Arial";
-  font-size: 138%;
+  font-size: 120%;
   line-height: 1.6em;
   letter-spacing: 0px;
-  /* text-align: left; */
-  font-weight: normal;
-  text-align: justify;
 }
 
 #logo {
@@ -653,7 +661,6 @@ blockquote {
   justify-content: center;
   background-color: black;
   color: white;
-  opacity: 0.8;
 }
 
 ul {
@@ -748,7 +755,7 @@ li a:hover {
   transition: transform 0.3s;
   opacity: 1;
   display: block;
-  height: auto;
+  height: 100%;
   transition: 0.5s ease;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -899,6 +906,10 @@ input[type="submit"]:hover {
   margin: 4%;
 }
 
+/*.about-heading-div span p {*/ 
+/*    text-align: center;*/
+/*}*/
+
 .honey-para {
   margin: 4%;
 }
@@ -980,7 +991,7 @@ input[type="submit"]:hover {
 #footer-style {
     background-color: Black;
     color: white;
-    grid-template-columns: 60% 38%;
+    grid-template-columns: 100%;
 
 }
 
